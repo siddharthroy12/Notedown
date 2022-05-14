@@ -1,0 +1,22 @@
+.ListItem {
+  display: flex;
+  align-items: center;
+  padding: var(--padding);
+  color: var(--sidebar-text);
+}
+
+.ListItem.disabled {
+  color: var(--sidebar-group-name);
+}
+
+.ListItem.enabled:hover {
+  background-color: var(--sidebar-item-hover);
+}
+
+.ListItem.enabled {
+  cursor: pointer;
+}
+
+.ListItem > *:first-child {
+  margin-right: 12px;
+}

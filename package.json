@@ -1,0 +1,14 @@
+{
+  "name": "notedown",
+  "version": "0.1.0",
+  "description": "A markdown based note taking app",
+  "main": "server/main.js",
+  "author": "Siddharth Roy",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
